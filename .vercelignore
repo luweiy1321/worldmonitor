@@ -1,0 +1,54 @@
+# Dependencies
+node_modules
+
+# Build outputs (Vercel will build)
+dist
+.cache
+
+# Desktop app
+src-tauri
+
+# Testing
+e2e
+tests
+*.test.ts
+*.test.mjs
+*.test.mts
+
+# Documentation
+docs
+*.md
+!README.md
+
+# Development files
+.vscode
+.idea
+*.log
+.tmp
+tmp
+
+# Large assets
+page-load-baseline.png
+new-world-monitor.png
+web-app-overview.jpg
+worldmonitor-header.png
+
+# Scripts and tools
+scripts
+Makefile
+.husky
+
+# Git
+.git
+.github
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Other
+api-cache.json
+skills-lock.json
+verbose-mode.json
+railpack.json
